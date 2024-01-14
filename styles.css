@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Logo */
+#logo {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    background-color: #f2f2f2;
+}
+
+/* CV Section */
+#cv {
+    background-color: #ddd;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f2f2f2;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
